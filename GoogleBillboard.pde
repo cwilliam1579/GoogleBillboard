@@ -8,7 +8,7 @@ public void setup()
     digits = e.substring(i, i + 10);
     dNum = Double.parseDouble(digits);
     if (isPrime(dNum)) {
-return (dNum);
+System.out.println(dNum);
       break;
     }
     i++;
@@ -27,4 +27,3 @@ public boolean isPrime(double dNum)
   }
   return true;
 }
-
